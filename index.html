@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/about.jpg"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Tushar's Portfolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Tushar Jha</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt bx-flip-horizontal"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user bx-flip-horizontal"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book bx-flip-horizontal"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase bx-flip-horizontal"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bxs-contact bx-flip-horizontal"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme Change Button -->
+
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Tushar Jha</h1>
+            <h3 class="home__education">
+              Android Developer & UX/Graphic Designer
+            </h3>
+
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/Tushar's Resume.pdf"
+                class="button button--ghost"
+              >
+                Downlod Resume
+              </a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+
+          <div class="home__handle">
+            <img src="assets/img/profile.jpg" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/tusharjha44/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/tusharjha44"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://twitter.com/TusharJha44"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <!-- <div class="about__box">
+                        <i class='bx bx-mouse bx-flip-horizontal about__icon' ></i>
+                          <h3 class="about__title">Achievements</h3>
+                          <span class="about__subtitle">8+ Years working</span>
+                      </div> -->
+
+              <div class="about__box">
+                <i
+                  class="bx bxs-briefcase-alt-2 bx-flip-horizontal about__icon"
+                ></i>
+                <h3 class="about__title">Completed</h3>
+                <span class="about__subtitle">50+ Projects</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-support bx-flip-horizontal about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              I'm a 2nd year BTech Computer Scienece Student at Maharaja
+              Surajmal Institute of Technology. By Profession I'm a Android
+              Developer and UX/Graphic Desinger and also trying to learn new
+              things.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My abilities</span>
+        <h3 class="section__title">My Achievements</h3>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Programming Languages</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">C/C++</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">HTML/CSS</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">Kotlin</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">Git</h3>
+                    <span class="skills__levels">Advanced</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">Firebase</h3>
+                    <span class="skills__levels">Begineer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Graphic Designing Tools</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">PhotoShop</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">Logo</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">Illustrator</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills_name">Video Editing</h3>
+                    <span class="skills__levels">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section">
+        <span class="section__subtitle">My Services</span>
+        <h2 class="section__title">What I Offer</h2>
+
+        <div class="services_container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              Android <br />
+              Developer
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Android Developer</h3>
+                <p class="services__modal-description">
+                  I am practising Android Development for past 6 months and also
+                  completed a Udemy Course in this.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I develop the User-Interface.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I have used API calls and Room Database.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I can develop an app with firebase and appwrite.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">
+              Graphic <br />
+              Designer
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Graphic Designer</h3>
+                <p class="services__modal-description">
+                  I am a begineer in this field but i have been practising it
+                  from past 2 months now and I'm confident in making something
+                  you may like.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I'm currently enrolled in google UX Design course.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I can make your photo look more attractive than before.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I can develop Logo,icons,etc..
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">
+              Video <br />
+              Editor
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">Video Editor</h3>
+                <p class="services__modal-description">
+                  I am doing video editing for my personal projects from past
+                  1.5years. I have used FilmoraX and Adobe Premier Pro.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">I can use transitions.</p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I can make your video look more interacting.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      I can pretty much do everything in video editing.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".app">Apps</span>
+          <span class="work__item" data-filter=".graphic">Graphic</span>
+          <span class="work__item" data-filter=".ux">UX</span>
+        </div>
+
+        <div class="work__container container grid">
+          <!-- <div class="work__card mix app">
+            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Projemanag</h3>
+
+            <a href="#" class="work__button">
+              Souce Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div> -->
+
+          <div class="work__card mix app">
+            <img src="assets/img/myDishes.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">My Dishes</h3>
+
+            <a href="https://github.com/tusharjha44/MyDishes" class="work__button">
+              Souce Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix app">
+            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">7MinuteWorkout</h3>
+
+            <a href="https://github.com/tusharjha44/WorkOutApp" class="work__button">
+              Souce Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix app">
+            <img src="assets/img/work2.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">KidsDrawing App</h3>
+
+            <a href="https://github.com/tusharjha44/KidsDrawingApp" class="work__button">
+              Souce Code <i class="bx bx-right-arrow-alt work__icon"></i>
+            </a>
+          </div>
+
+          <div class="work__card mix graphic">
+            <img src="assets/img/DayNight.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">Converted Day into Night</h3>
+
+          </div>
+
+          <div class="work__card mix graphic">
+            <img src="assets/img/skyRemove.png" alt="" class="work__img" />
+
+            <h3 class="work__title">Sky Change</h3>
+
+          </div>
+
+          <!-- <div class="work__card mix ux">
+            <img src="assets/img/work5.jpg" alt="" class="work__img" />
+
+            <h3 class="work__title">UX</h3> -->
+          </div>
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonial section"></section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in Touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact_container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">tusharjhcoding@gmail.com</span>
+
+                <a
+                  href="mailto:tusharjhacoding@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-instagram contact__card-icon"></i>
+                <h3 class="contact__card-title">Instagram</h3>
+                <span class="contact__card-data">tusharjha44</span>
+
+                <a
+                  href="https://www.instagram.com/tusharjha44/"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Message me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxs-phone-call contact__card-icon"></i>
+                <h3 class="contact__card-title">Phone Number:</h3>
+                <span class="contact__card-data">+91-9319072390</span>
+
+                <a
+                  href="tel:+91-9319072390"
+                  target="_blank"
+                  class="contact__button"
+                >
+                Call me
+                <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your project or Offer</h3>
+
+            <form action="mailto:tushar.great44@gmail.com" method="post" enctype="text/plain" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Enter Your name"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input
+                  name="Email"
+                  type="email"
+                  placeholder="Enter your email"
+                  class="contact__form-input"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Hire me</label>
+                <textarea
+                  name="Message:"
+                  cols="30"
+                  rows="10"
+                  placeholder="Please tell me something about Yourself"
+                  class="contact__form-input contact__form-area"
+                ></textarea>
+              </div>
+              <input class="button btn-34" type="submit" value="Send Message"/>
+            </form>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Tushar Jha</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
+        <ul class="footer__social">
+          <a
+          href="https://www.linkedin.com/in/tusharjha44/"
+          target="_blank"
+          class="footer__social-link"
+        >
+        <i class="bx bxl-linkedin"></i>
+      </a>
+      <a
+        href="https://github.com/tusharjha44"
+        target="_blank"
+        class="footer__social-link"
+      >
+        <i class="bx bxl-github"></i>
+      </a>
+          <a
+            href="https://twitter.com/TusharJha44"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/tusharjha44"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook-square"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/tusharjha44/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Tushar Jha. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
